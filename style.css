@@ -1,3 +1,42 @@
-body {
+h1 {
+  color: #17202A;
+  font-size: 60px;
+}
 
+body {
+  background-color: #3498DB;
+  }
+
+img {
+  border: dashed 5px #000000;
+}
+
+img:hover {
+  border: dotted 10px black;
+}
+
+h1:hover {
+ color: #000000;
+ font-size: 100px;
+}
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #16A085;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+li {
+  display: inline;
+  padding: 15px;
+  float: right;
+}
+li:hover {
+  background-color: #2471A3;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
